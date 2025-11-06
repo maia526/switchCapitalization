@@ -13,7 +13,6 @@
         else{
             newText .= StrUpper(char)
         }
-            
     }
     A_Clipboard := newText
     Send "^v"
